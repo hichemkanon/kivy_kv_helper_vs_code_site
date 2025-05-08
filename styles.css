@@ -1,0 +1,102 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('kv_helper_explain.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.description {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #7f8c8d;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.buy-coffee {
+    background-color: transparent;
+    padding: 0;
+}
+
+.buy-coffee img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.install-extension {
+    flex: 1;
+    max-width: 200px;
+    text-align: center;
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.install-extension:hover {
+    background-color: #2980b9;
+}
+
+.github-button {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #3498db;
+    text-decoration: none;
+    border: 1px solid #3498db;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.github-button:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.coffee-image {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
